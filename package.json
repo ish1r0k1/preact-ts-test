@@ -1,0 +1,26 @@
+{
+  "name": "preact-ts-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/history": "^4.6.2",
+    "@types/node": "^9.3.0",
+    "@types/redux-logger": "^3.0.5",
+    "history": "^4.7.2",
+    "preact": "^8.2.7",
+    "preact-redux": "^2.0.3",
+    "preact-router": "^2.6.0",
+    "preact-scripts-ts": "0.9.17",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "preact-scripts-ts start",
+    "build": "preact-scripts-ts build",
+    "test": "preact-scripts-ts test --env=jsdom",
+    "eject": "preact-scripts-ts eject"
+  }
+}
